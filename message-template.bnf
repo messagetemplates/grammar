@@ -1,0 +1,7 @@
+Text ::= ([^\{] | '{{' | '}}')+
+PropertyName ::= [0-9A-z_]+
+Index::= [0-9]+
+Format ::= [^\{]+
+Template ::= (Text | Property)*
+Property ::=  '{' ('@' | '$')? (PropertyName | Index) (',' Alignment)? (':' Format)? '}'
+Alignment ::= '-'?[0-9]+
