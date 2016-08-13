@@ -1,2 +1,2 @@
 # grammar
-A BNF grammar for the base message template syntax
+A EBNF grammar for the base message template syntax
