@@ -1,5 +1,5 @@
 Text ::= ([^\{] | '{{' | '}}')+
-Name ::= [0-9A-z_]+
+Name ::= [0-9a-zA-Z_]+
 Index::= [0-9]+
 Format ::= [^\}]+
 Template ::= (Text | Hole)*
